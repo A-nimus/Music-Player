@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gtc.css">
+    <title>Music player</title>
+    
+</head>
+
+<body class="body">
+  <script>
+            Swal.fire({
+                title:"Music Player\nGlassmorphism UI 🎵🎶",
+                text:"Created by __Animus__.\nPlease upvote,comment the bugs and please share.",
+                
+            });
+        </script>
+    <div class="box">
+        <div class="container">
+            <div class="top-icons">
+                <a href="#"><i class="fa fa-heart" onclick="toggleinfo()"></i></a>
+                <a href="#"><i class="fa fa-info-circle" onclick="toggleinfo()"></i></a>
+            </div>
+
+            <div class="img">
+                <img class="image" src="https://lh3.googleusercontent.com/T3I3ji0zbGsLRjlvsphvZcUYEhm_PNLav7K9HSnzmqEP3tKy0aC3Y17084i1Av6AJQU" alt="">
+                <!--https://thedigitalwise.com/wp-content/uploads/2019/06/unnamed.jpg-->
+            </div>
+
+            <div class="text">
+                <h1>Alone</h1>
+                <h4>Marshmello</h4>
+            </div>
+
+                <audio class="song" src="https://dl.dropbox.com/s/zjd3uidoiq27enw/Marshmello%20-%20Alone.mp3?dl=1" ></audio>
+
+
+                <div class="time">
+                    <div class="mintime">00:00</div>
+                    <div class="maxtime">00:00</div>
+                </div>
+
+                <div class="seekbar">
+                    <input type="range" min='1' max =''  class="slider" id="currentRange">
+                </div>
+                
+                <div class="control-buttons">
+                    <a href="#"><i class="fa fa-retweet" onclick="loopc()"></i><a>
+                        <a href="#"><i class="fa fa-backward" onclick="prev()"></i><a>
+                            <button class="pp-btn" onclick="playpause()"><i class="fa fa-play-circle"></i></button>
+                                <a href="#"><i class="fa fa-forward" onclick="next()"></i><a>
+                                    <a href="#"><i class="fa fa-random" onclick="toggleinfo()"></i><a>
+                                    </div>
+                                    
+                                </div>
+
+</div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Lobster&display=swap" rel="stylesheet">                              
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="gtj.js"></script>
+</body>
+</html>
